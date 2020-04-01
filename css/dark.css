@@ -1,0 +1,7 @@
+/* $light-mode: 'light';
+$dark-mode: 'dark'; */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-mode: 'dark';
+  }
+}

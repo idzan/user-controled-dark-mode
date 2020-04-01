@@ -1,0 +1,12 @@
+/* $light-mode: 'light';
+$dark-mode: 'dark'; */
+:root {
+  --color-mode: 'light';
+}
+
+body {
+  background: #efefef;
+  color: #141414;
+  -webkit-transition: background 500ms ease-in-out, color 200ms ease;
+  transition: background 500ms ease-in-out, color 200ms ease;
+}

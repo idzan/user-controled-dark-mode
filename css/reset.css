@@ -87,16 +87,3 @@ input[type='search'] {
 img {
   max-width: 100%;
 }
-
-/* Remove _all_ animations and transitions for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  body {
-    scroll-behavior: auto;
-  }
-  * {
-    -webkit-animation: none !important;
-    animation: none !important;
-    -webkit-transition: none !important;
-    transition: none !important;
-  }
-}

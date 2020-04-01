@@ -1,7 +1,25 @@
-@import "variables";
-
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-mode: 'dark';
+      --color-mode: "dark";
     }
-}
+  
+    :root:not([data-user-color-scheme]) {
+      --background: var(--color-dark);
+      --text-color: var(--color-light);
+      --button-icon: var(--icon-sun);
+      --button-icon-filter: var(--icon-sun-filter);
+      --button-background: var(--color-light);
+      --button-color: var(--color-dark);
+      --border-color: var(--color-light-alpha);
+    }
+  }
+  
+  [data-user-color-scheme="dark"] {
+    --background: var(--color-dark);
+    --text-color: var(--color-light);
+    --button-icon: var(--icon-sun);
+    --button-icon-filter: var(--icon-sun-filter);
+    --button-background: var(--color-light-alpha);
+    --button-color: var(--color-dark);
+    --border-color: var(--color-light-alpha);
+  }

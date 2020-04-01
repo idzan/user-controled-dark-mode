@@ -1,11 +1,5 @@
-@import "variables";
-
-:root {
-    --color-mode: 'light';
-}
-
 body {
-    background: $background;
-    color: $color;
+    background: var(--background);
+    color: var(--text-color);
     transition: background 500ms ease-in-out, color 200ms ease;
-}
+  }

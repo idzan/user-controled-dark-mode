@@ -1,5 +1,5 @@
 :root {
-  --color-mode: "light";
+  /* --color-mode: "light"; */
   --color-dark: #141414;
   --color-dark-alpha: rgba(0, 0, 0, 0.1);
   --color-light: #efefef;

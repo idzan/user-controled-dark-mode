@@ -14,7 +14,7 @@ $moon: url('data:image/svg+xml,\
 $moonfilter: invert(0.75);
 
 :root {
-    --color-mode: "light";
+    /* --color-mode: "light"; */
     --color-dark: #{$dark};
     --color-dark-alpha: #{$darkalpha};
     --color-light: #{$light};
